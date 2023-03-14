@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ManagerLogin.master.cs" Inherits="PatilesmeDernegi.ManagerPanel.ManagerLogin" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>Patileşme Derneği Panel</title>
+    <link href="Assets/CSS/ManagerPanel.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="header">
+            <div class="pagetitle">
+                <img src="Assets/Images/pati.jpg" style="width: 100px; float: left;" />
+                <img src="Assets/Images/pati.jpg" style="width: 100px; float: right;" />
+                <h1>Patileşme Derneği Panel</h1>
+            </div>
+            <div class="userPanel">
+                <asp:Label ID="lbl_kullanici" runat="server"></asp:Label>
+                <asp:LinkButton ID="lbtn_cikis" runat="server" OnClick="lbtn_cikis_Click">ÇIKIŞ</asp:LinkButton>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        <div class="sidebar">
+            <a href="Default.aspx" style="text-decoration: none;">
+                <div class="menuItem" style="font-weight: 900; font-size: 25px;">
+                    ADMİN PANEL
+                </div>
+            </a>
+            <ul>
+                <li><a href="PublicationAdd.aspx">İLAN EKLE</a>
+                </li>
+                <li><a href="PublicationList.aspx">İLAN LİSTELE</a>
+                </li>
+            </ul>
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+
+    </form>
+</body>
+</html>

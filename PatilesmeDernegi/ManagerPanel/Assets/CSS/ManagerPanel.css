@@ -1,0 +1,148 @@
+﻿*, h1, h1, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Shantell Sans;
+}
+
+.header {
+}
+
+.pagetitle {
+    height: 100px;
+    text-align: center;
+    background-color: lightpink;
+    font-size: xx-large;
+}
+
+.menuItem {
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    display: inline flow-root list-item;
+}
+
+.container {
+    width: 100%;
+    min-height: 600px;
+}
+
+.bottomContainer {
+}
+
+.sidebar {
+    width: 20%;
+    height: 520px;
+    float: left;
+    padding: 4%;
+    background-color: darkgray;
+    border-radius: 10px;
+}
+
+    .sidebar ul li a {
+        text-decoration: none;
+        color: black;
+    }
+        .sidebar ul li a:hover {
+            background-color: palevioletred;
+            cursor: pointer;
+        }
+        .sidebar ul 
+        {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+
+    .sidebar li {
+        margin-bottom: 25px;
+        font-size: x-large;
+    }
+
+#lbtn_cikis {
+    margin-top: 30px;
+    float: right;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 170px;
+    height: 35px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #B4BEC9;
+    color: black;
+    font-size: 20px;
+}
+
+    #lbtn_cikis:hover {
+        background-color: lightcoral;
+        cursor: pointer;
+    }
+
+.dropdown-container {
+    /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;*/
+}
+
+.sidebar .menuItem {
+    text-align: center;
+    width: 200px;
+    height: 35px;
+    display: inline flow-root list-item;
+    margin-bottom: 60px;
+    color: black;
+}
+
+    .sidebar .menuItem:hover {
+        background-color: palevioletred;
+        cursor: pointer;
+    }
+
+.Titleekle {
+    border: 1px solid black;
+    height: 30px;
+    margin-top: 130px;
+    width: 44%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: palevioletred;
+    border-radius: 5px;
+}
+
+.Contentekle {
+}
+
+.textbox {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    color: palevioletred;
+    font-weight: bold;
+    border-radius: 5px;
+}
+#lbtn_ekle {
+    text-decoration: none;
+    color: palevioletred;
+    font-size: 18pt;
+}
+.basarisiz
+{
+    margin-top: 50px;
+    font-size: x-large;
+    color: red;
+}
+.basarili {
+    margin-top: 50px;
+    font-size: x-large;
+    color:green;
+}
+.formbutton {
+    margin-top: 30px;
+    text-decoration: none;
+    font-size: 20pt;
+    color: palevioletred;
+}
